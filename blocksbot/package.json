@@ -1,0 +1,35 @@
+{
+  "name": "blocksbot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "atob": "^2.0.3",
+    "body-parser": "^1.17.2",
+    "dotenv": "^4.0.0",
+    "express": "^4.15.3",
+    "fetch": "^1.1.0",
+    "github": "^9.2.0",
+    "lodash.shuffle": "^4.2.0",
+    "morgan": "^1.8.2",
+    "node-fetch": "^1.7.1",
+    "npm-registry-client": "^8.4.0",
+    "qs": "^6.5.0",
+    "request": "^2.81.0",
+    "simple-node-logger": "^0.93.28",
+    "yamljs": "^0.3.0"
+  },
+  "devDependencies": {
+    "eslint": "^4.2.0",
+    "eslint-config-prettier": "^2.3.0",
+    "eslint-plugin-prettier": "^2.1.2",
+    "prettier": "^1.5.3"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "lint": "prettier --single-quote --write **/**.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

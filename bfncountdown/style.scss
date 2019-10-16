@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  width: 100%;
+  min-height: 100vh;
+  font-family: Inconsolata, monospace;
+}
+
+#countdown-element {
+  width: 100vw;
+  height: 100vh;
+}
+
+.clock-background {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f1f1ec;
+}
+
+.clock-background--even {
+  text-decoration: solid underline #ef3f31;
+}
+
+.clock-background--odd {
+  text-decoration: none;
+}
+
+.clock-background--day {
+  background: #ef3f31;
+  color: white;
+}
+
+.clock-face {
+  margin: 0;
+  font-size: 10vw;
+  text-align: center;
+  transform: translateY(-2rem);
+}
+
+.rocket {
+  font-size: 10vw;
+  text-decoration: none;
+}

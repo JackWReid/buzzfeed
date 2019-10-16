@@ -1,0 +1,23 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Proxima Nova', sans-serif;
+  background-color: #f4f4f4;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: 'Caponi Slab';
+  src: url(./fonts/CaponiSlab-Semibold-Web.eot);
+  src: url(./fonts/CaponiSlab-Semibold-Web.eot?#iefix)
+      format('embedded-opentype'),
+    url(./fonts/CaponiSlab-Semibold-Web.woff) format('woff'),
+    url(./fonts/CaponiSlab-Semibold-Web.ttf) format('truetype'),
+    url(./fonts/CaponiSlab-Semibold-Web.svg#svgFontName) format('svg');
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+}

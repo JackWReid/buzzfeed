@@ -1,0 +1,12 @@
+{
+  "name": "blocksbot",
+  "alias": "blocksbot.now.sh",
+  "env": {
+    "NODE_ENV": "production",
+    "SLACK_CLIENT_ID": "@blocksbot-slack-id",
+    "SLACK_CLIENT_SECRET": "@blocksbot-slack-secret",
+    "SLACK_TOKEN": "@blocksbot-slack-token",
+    "GH_TOKEN": "@gh-user-token",
+    "NPM_TOKEN": "@npm-token"
+  }
+}
