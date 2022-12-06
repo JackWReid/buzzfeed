@@ -14,7 +14,7 @@
     "morgan": "^1.8.2",
     "node-fetch": "^1.7.1",
     "npm-registry-client": "^8.4.0",
-    "qs": "^6.5.0",
+    "qs": "^6.5.3",
     "request": "^2.81.0",
     "simple-node-logger": "^0.93.28",
     "yamljs": "^0.3.0"
